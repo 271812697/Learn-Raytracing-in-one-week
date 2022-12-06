@@ -6,7 +6,7 @@
 #include "material.h"
 #include "sphere.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include"external/stb_image_write.h"
+#include"stb_image_write.h"
 #include<iostream>
 color ray_color(const ray& r, const hittable& world, int depth) {
     hit_record rec;
