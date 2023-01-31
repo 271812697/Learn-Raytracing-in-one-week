@@ -389,5 +389,5 @@ int main() {
     stbi_write_png("res.png", image_width, image_height, 4, data, 0);
     free(data);
 
-    std::cerr << "\nDone.\n";
+    std::cout << "\nDone.\n";
 }

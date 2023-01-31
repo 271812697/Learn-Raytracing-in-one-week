@@ -119,7 +119,7 @@ inline vec3 random_in_unit_disk() {
 #ifdef RRR
     double u=random_double();
     double v = random_double()*pi*2;
-    return vec3(u*cos(v), u*sin(v), 0);
+    return vec3(u*cos(v), u*sin(v), 0);             
 #else
     while (true) {
         auto p = vec3(random_double(-1,1), random_double(-1,1), 0);
